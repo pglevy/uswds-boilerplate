@@ -1,6 +1,10 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: bundle install
+  - name: Install the things
+    init: bundle install
+  - name: Update the things
+    before: bundle update
+  - name: Start the server
     command: bundle exec jekyll serve
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
