@@ -1,10 +1,9 @@
+image:
+  file: Dockerfile
+  
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: Install jekyll and bundler
-    init: RUN bash -lc "gem install jekyll bundler"
-  - name: Install GitHub Pages gems
-    init: bundle install
-  - name: Start the server
+  - init: bundle update && bundle install
     command: bundle exec jekyll serve
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
