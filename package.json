@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pglevy/uswds-boilerplate/issues"
   },
-  "homepage": "https://github.com/pglevy/uswds-boilerplate#readme"
+  "homepage": "https://github.com/pglevy/uswds-boilerplate#readme",
+  "dependencies": {
+    "@uswds/uswds": "^3.1.0"
+  }
 }
