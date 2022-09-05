@@ -20,6 +20,8 @@ uswds.paths.dist.fonts = './assets/uswds/dist/fonts';
 uswds.paths.dist.js = './assets/uswds/dist/js';
 uswds.paths.dist.css = './assets/uswds/dist/css';
 
+uswds.paths.dist.sass = './sass';
+
 /**
  * Exports
  * Add as many as you need
