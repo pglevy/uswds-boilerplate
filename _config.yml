@@ -8,7 +8,7 @@ description: A starting point for rapid web prototyping using a hosted version o
 
 # Enable for live hosting on GitHub Pages
 # This should match the name of your GitHub repository, along with a leading forward slash (/).
-baseurl: /uswds-boilerplate
+# baseurl: /uswds-boilerplate
 
 ### RECOMMENDED SETTINGS ###
 
